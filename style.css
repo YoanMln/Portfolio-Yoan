@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #393e46;
+  font-family: var(--Nunito);
+}
+/*-----NavBar-----*/
+.navbar {
+  box-shadow: none;
+}
+
+.mt-custom {
+  margin-top: 10rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #37afe1;
+}
+
+#accueil {
+  padding: 1rem 0 12rem 0;
+}
+
+/*-----Title-----*/
+.main-title h1 {
+  font-size: 50px;
+  color: #f6f6f6;
+}
+
+.main-title h2 {
+  font-size: 25px;
+  color: #f9f6ee;
+}
+
+/*-----Btn CV-----*/
+
+.btn-bounce {
+  animation: btn-bounce 1.3s ease infinite;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  background-color: #008dda;
+}
+
+/*-----Network-----*/
+
+.icon-link i {
+  color: #333;
+}
+
+a.icon-link {
+  text-decoration: none;
+}
+
+/*-----Text Intro-----*/
+#apropos {
+  padding: 5rem 0 5rem 0;
+  margin-top: 10rem;
+}
+.intro-text {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+/*-----Frame part-----*/
+.frame {
+  max-width: 100%;
+  width: 100%;
+}
+
+/*-----About-----*/
+
+#about {
+  padding: 80px 20px;
+  background: url(./images/pictures/BG-about.png) center / cover;
+  text-align: center;
+}
+
+/*-----Section container-----*/
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*-----Img container-----*/
+.img-container {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.img-illustration {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #000;
+}
+
+/*-----Text container------*/
+.about-text {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.about-p {
+  font-size: 1rem;
+  line-height: 1.6;
+
+  margin-bottom: 30px;
+}
+
+.btn-info {
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-info:hover {
+  background-color: #008dda;
+}
+
+.mt-4 {
+  margin-top: 24px;
+}
+
+/*-----Section langages-----*/
+
+#langages {
+  padding: 15rem 1rem 10rem 1rem;
+
+  color: #333;
+}
+
+.title-section {
+  text-align: center;
+}
+
+/*-----Main container-----*/
+.container-langages {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+/*-----Ordrer dev/design cards-----*/
+.container-card-langages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/*-----Card contaienr-----*/
+
+/*-----General card-----*/
+.container-web,
+.container-design {
+  background-color: #65647c;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1 1 300px;
+  min-width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.container-web:hover,
+.container-design:hover {
+  transform: translateY(-5px);
+}
+
+/*-----Titles section web / design-----*/
+.title h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.title p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+/*-----Langages lists-----*/
+.cards-langages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+/*-----Mini-cards-----*/
+.langage-card {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 120px;
+  min-width: 120px;
+  max-width: 160px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.langage-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon-langage {
+  font-size: 2.2rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+/*-----Langages names-----*/
+.name-langage {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+/*-----level-----*/
+.level-langage {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/*-----Projects-----*/
+
+#projets {
+  padding: 10rem 0 5rem 0;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/*-----Btn projects-----*/
+.nav-pills .nav-link {
+  color: white;
+  background-color: transparent !important;
+}
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #37afe1 !important;
+}
+
+/*-----Style projects cards-----*/
+.card {
+  width: 18rem;
+  background-color: #65647c;
+}
+
+/*-----Footer-----*/
+
+footer {
+  background-color: #222831;
+  padding: 1rem 0 1rem 0;
+  color: #f9f6ee;
+}
+
+/*-----Particles.js-----*/
+#langages,
+#projects {
+  position: relative;
+  overflow: hidden;
+}
+
+#particles-langages,
+#particles-projects {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.langages-container,
+.container-projects {
+  position: relative;
+  z-index: 1;
+}
