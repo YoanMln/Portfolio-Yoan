@@ -7,25 +7,38 @@ body {
   background-color: #393e46;
   font-family: var(--Nunito);
 }
-/*-----NavBar-----*/
+
+/*-----Section DropDown Nav-----*/
+
 .navbar {
-  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #30343c;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
-.mt-custom {
-  margin-top: 10rem;
+/*Burger button*/
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
+/*Navigation links*/
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #37afe1;
-}
-
-#accueil {
-  padding: 1rem 0 12rem 0;
+.navLinks a {
+  color: white;
+  text-decoration: none;
 }
 
 /*-----Title-----*/

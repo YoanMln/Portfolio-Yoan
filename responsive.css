@@ -1,35 +1,31 @@
-/* Petits écrans (téléphones) */
-
-/* Tablettes en portrait */
-@media (min-width: 481px) and (max-width: 768px) {
-  /* Styles pour les tablettes */
-  .container-projects {
-    padding: 1.5rem;
-  }
-
-  .card {
-    width: 90%;
-    max-width: 20rem;
-    margin: auto;
-  }
-}
-
 @media (max-width: 768px) {
-  .container-card-langages {
-    flex-direction: column;
-    align-items: stretch;
+  /*-----Nav-----*/
+  .burger {
+    display: block;
   }
 
-  .cards-langages {
-    justify-content: center;
-  }
-
-  .photo-profil {
+  .navLinks {
     display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #30343c;
   }
-}
 
-@media (max-width: 768px) {
+  .navLinks.show {
+    display: flex;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navLinks a {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  /*-----About-----*/
   .about-container {
     flex-direction: column;
     text-align: center;
@@ -52,8 +48,34 @@
     padding: 10px 15px;
     font-size: 1rem;
   }
+
+  /*-----Section langages-----*/
+  .container-card-langages {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cards-langages {
+    justify-content: center;
+  }
+
+  .photo-profil {
+    display: none;
+  }
+
+  /*-----Projects-----*/
+  .container-projects {
+    padding: 1.5rem;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 20rem;
+    margin: auto;
+  }
 }
 
+/*-----Responsive XS : Téléphones petits écrans-----*/
 @media (max-width: 480px) {
   .about-title {
     font-size: 1.8rem;
@@ -68,19 +90,8 @@
   }
 }
 
-/* Tablettes en paysage et petits laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .container-projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-}
-
-/* Ordinateurs et écrans larges */
-@media (min-width: 1025px) {
+/*-----Tablettes-----*/
+@media (min-width: 769px) and (max-width: 1024px), (min-width: 1025px) {
   .container-projects {
     display: flex;
     justify-content: center;
