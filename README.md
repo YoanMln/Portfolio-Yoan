@@ -10,11 +10,11 @@ Il inclut des animations et effets visuels grâce à la bibliothèque [Particles
 
 ## 🛠️ Technologies utilisées
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Bootstrap 5  
-- Particles.js  
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Particles.js
 
 ## 📱 Responsive Design
 
@@ -34,10 +34,14 @@ Le site est entièrement responsive, pensé en version desktop puis adapté aux 
 - Optimisation des performances
 - Ajout de nouveaux projets
 
+## 📥 Ajouts récents
+
+- (06/05/2025) Nav Bar avec menu "DropDown" géré par JS
+
 ## 📬 Me contacter
 
 Tu peux me joindre via :  
-👉 yoan.moulin@le-campus-numerique.fr 
+👉 yoan.moulin@le-campus-numerique.fr
 👉 LinkedIn / GitHub
 
 ---
