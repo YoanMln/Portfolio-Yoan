@@ -6,6 +6,7 @@
 body {
   background-color: #393e46;
   font-family: var(--Nunito);
+  height: 100%;
 }
 
 /*-----Section DropDown Nav-----*/
@@ -45,6 +46,7 @@ body {
 .main-title h1 {
   font-size: 50px;
   color: #f6f6f6;
+  margin-top: 1rem;
 }
 
 .main-title h2 {
@@ -66,14 +68,58 @@ body {
   background-color: #008dda;
 }
 
-/*-----Network-----*/
+/*-----API-GitHub Activity-----*/
 
-.icon-link i {
-  color: #333;
+#github-activity {
+  background-color: #65647c;
+  border: 1px solid #37afe1;
+  border-radius: 8px;
+  width: 100%;
+
+  color: #f6f6f6;
+  font-size: 25px;
 }
 
-a.icon-link {
-  text-decoration: none;
+.github-header {
+  display: flex;
+  align-items: center;
+}
+.github-header i {
+  font-size: 20px;
+  color: #37afe1;
+}
+.github-header h4 {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: #f6f6f6;
+  letter-spacing: 1.9px;
+}
+
+.git-error {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+a.git-link {
+  font-size: 20px;
+}
+
+#github-activity strong {
+  color: #37afe1;
+}
+
+#github-activity em {
+  font-style: italic;
+  color: #f6f6f6;
+  font-size: 18px;
+}
+
+.github-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 /*-----Text Intro-----*/
@@ -168,7 +214,6 @@ a.icon-link {
 
 #langages {
   padding: 15rem 1rem 10rem 1rem;
-
   color: #333;
 }
 
@@ -198,7 +243,7 @@ a.icon-link {
 .container-web,
 .container-design {
   background-color: #65647c;
-  border: 1px solid #ddd;
+  border: 1px solid #37afe1;
   border-radius: 12px;
   padding: 2rem;
   flex: 1 1 300px;

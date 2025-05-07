@@ -33,10 +33,12 @@ Le site est entièrement responsive, pensé en version desktop puis adapté aux 
 - Intégration d’animations supplémentaires
 - Optimisation des performances
 - Ajout de nouveaux projets
+- Amélioration de l'intégration REST API (back-end)
 
 ## 📥 Ajouts récents
 
 - (06/05/2025) Nav Bar avec menu "DropDown" géré par JS
+- (07/05/2025) REST API GitHub pour suivre les derniers commits réalisés
 
 ## 📬 Me contacter
 

@@ -64,30 +64,12 @@
                   Télécharger mon CV
                 </a>
               </div>
-              <!-----Network----->
-              <div
-                class="network-icon mt-3 d-flex justify-content-center gap-4"
-              >
-                <a
-                  href="https://github.com/YoanMln"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <i
-                    class="fa-brands fa-github fa-3x"
-                    style="color: #f9f6ee"
-                  ></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/yoan-moulin-8275262a6/"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <i
-                    class="fa-brands fa-linkedin fa-3x"
-                    style="color: #f9f6ee"
-                  ></i>
-                </a>
+
+              <!-----API GitHub Activity----->
+              <div class="github-container">
+                <div id="github-activity" class="container mt-3 text-center">
+                  Chargement du dernier commit...
+                </div>
               </div>
               <!-----Text Intro----->
               <div class="intro-text mt-5">
@@ -97,7 +79,6 @@
                 </h2>
               </div>
             </div>
-
             <!-----Frame part----->
             <div class="col-md-6 text-center order-1 order-md-0">
               <div class="illustration-container">
@@ -300,7 +281,7 @@
 
           <!-----Contents tab----->
           <div class="tab-content" id="pills-tabContent">
-            <!--=====Web tab=====-->
+            <!-------Web tab------->
             <div
               class="tab-pane fade show active"
               id="pills-projets-web"
@@ -310,7 +291,7 @@
               <div class="row justify-content-center m-4">
                 <!-----Projet 1----->
                 <div class="col-12 col-md-4 mb-4">
-                  <div class="card">
+                  <div class="card h-100">
                     <img
                       class="card-img-top"
                       src="./images/screenProjects/project-1.png"
@@ -338,12 +319,15 @@
                   class="modal fade"
                   id="project1"
                   tabindex="-1"
-                  aria-labelledby="project1lLabel"
+                  aria-labelledby="project1Label"
                   aria-hidden="true"
                 >
                   <div class="modal-dialog">
                     <div class="modal-content custom-modal">
                       <div class="modal-header">
+                        <h5 class="modal-title" id="project2Label">
+                          Galacti Quiz
+                        </h5>
                         <button
                           type="button"
                           class="btn-close"
@@ -377,7 +361,7 @@
                 </div>
                 <!-----Project 2----->
                 <div class="col-12 col-md-4 mb-4">
-                  <div class="card">
+                  <div class="card h-100">
                     <img
                       class="card-img-top"
                       src="./images/screenProjects/project-2.png"
@@ -404,12 +388,15 @@
                   class="modal fade"
                   id="project2"
                   tabindex="-1"
-                  aria-labelledby="project1lLabel"
+                  aria-labelledby="project2Label"
                   aria-hidden="true"
                 >
                   <div class="modal-dialog">
                     <div class="modal-content custom-modal">
                       <div class="modal-header">
+                        <h5 class="modal-title" id="project2Label">
+                          Agence des Deux Lacs
+                        </h5>
                         <button
                           type="button"
                           class="btn-close"
@@ -441,7 +428,7 @@
                 </div>
                 <!-----Project 3----->
                 <div class="col-12 col-md-4 mb-4">
-                  <div class="card">
+                  <div class="card h-100">
                     <img
                       class="card-img-top"
                       src="./images/screenProjects/project-3.png"
@@ -468,12 +455,13 @@
               class="modal fade"
               id="project3"
               tabindex="-1"
-              aria-labelledby="project1lLabel"
+              aria-labelledby="project3Label"
               aria-hidden="true"
             >
               <div class="modal-dialog">
                 <div class="modal-content custom-modal">
                   <div class="modal-header">
+                    <h5 class="modal-title" id="project3Label">Auto Legends</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -542,12 +530,13 @@
               class="modal fade"
               id="figma1"
               tabindex="-1"
-              aria-labelledby="figma1lLabel"
+              aria-labelledby="figma1Label"
               aria-hidden="true"
             >
               <div class="modal-dialog">
                 <div class="modal-content custom-modal">
                   <div class="modal-header">
+                    <h5 class="modal-title" id="Label">Landing page</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -586,7 +575,7 @@
           <i class="fa-brands fa-linkedin fa-3x" style="color: #f9f6ee"></i>
         </a>
         <p>Yoan</p>
-        <p>Campus Numérique in the Alps</p>
+
         <p>2025</p>
       </footer>
     </section>
@@ -597,5 +586,6 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="dropDown-nav.js"></script>
+    <script src="github-activity.js"></script>
   </body>
 </html>
