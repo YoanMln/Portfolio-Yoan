@@ -40,7 +40,7 @@
         <ul id="navLinks" class="navLinks">
           <li><a class="nav-link" href="#about">À propos</a></li>
           <li><a class="nav-link" href="#langages">Langages</a></li>
-          <li><a class="nav-link" href="#projects">Projet</a></li>
+          <li><a class="nav-link" href="#projects">Projets</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -239,15 +239,16 @@
           </div>
         </div>
       </section>
-
-      <!-----Projets----->
-
-      <section id="projects" class="d-flex flex-column align-items-center">
+      <!-------Projets------->
+      <section
+        id="projects"
+        class="d-flex flex-column align-items-center position-relative"
+      >
         <div id="particles-projects"></div>
-        <div class="container-projects">
-          <h2 class="fs-1 mt-5 text-color">Mes Projets</h2>
 
-          <!-----Web/Figma tab----->
+        <div class="container text-center">
+          <h2 class="fs-1 mt-5 text-color">Mes Projets</h2>
+          <!-------Web / Figma Onglets------->
           <ul
             class="nav nav-pills mb-3 mt-5 justify-content-center"
             id="pills-tab"
@@ -278,7 +279,6 @@
               >
             </li>
           </ul>
-
           <!-----Contents tab----->
           <div class="tab-content" id="pills-tabContent">
             <!-------Web tab------->
@@ -322,10 +322,10 @@
                   aria-labelledby="project1Label"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog">
+                  <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content custom-modal">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="project2Label">
+                        <h5 class="modal-title" id="project1Label">
                           Galacti Quiz
                         </h5>
                         <button
@@ -348,6 +348,18 @@
                         <p>JavaScript</p>
                       </div>
                       <div class="modal-footer">
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="https://github.com/YoanMln/Galacti-Quiz"
+                          role="button"
+                          >Github
+                        </a>
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="https://yoanmln.github.io/Galacti-Quiz/"
+                          role="button"
+                          >Tester le quiz !
+                        </a>
                         <button
                           type="button"
                           class="btn-color btn btn-secondary"
@@ -391,7 +403,7 @@
                   aria-labelledby="project2Label"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog">
+                  <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content custom-modal">
                       <div class="modal-header">
                         <h5 class="modal-title" id="project2Label">
@@ -415,6 +427,18 @@
                         <p>CSS</p>
                       </div>
                       <div class="modal-footer">
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="https://github.com/YoanMln/Agence-des-Deux-Lacs"
+                          role="button"
+                          >Github
+                        </a>
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="#"
+                          role="button"
+                          >Voir le site
+                        </a>
                         <button
                           type="button"
                           class="btn-color btn btn-secondary"
@@ -428,7 +452,7 @@
                 </div>
                 <!-----Project 3----->
                 <div class="col-12 col-md-4 mb-4">
-                  <div class="card h-100">
+                  <div class="card">
                     <img
                       class="card-img-top"
                       src="./images/screenProjects/project-3.png"
@@ -448,51 +472,64 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!-------Modal project 3------->
-            <div
-              class="modal fade"
-              id="project3"
-              tabindex="-1"
-              aria-labelledby="project3Label"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content custom-modal">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="project3Label">Auto Legends</h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                      Projet fictif autour de l’univers Porsche, j'ai réalisé ce
-                      projet durant ma formation en complément pour développer
-                      ma maîtrise de boostrap
-                    </p>
-                    <p>Langages utilisés :</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Framework : bootstrap</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn-color btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Fermer
-                    </button>
+                <!-------Modal project 3------->
+                <div
+                  class="modal fade"
+                  id="project3"
+                  tabindex="-1"
+                  aria-labelledby="project3Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content custom-modal">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project3Label">
+                          Auto Legends
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Projet fictif autour de l'univers Porsche, j'ai
+                          réalisé ce projet durant ma formation en complément
+                          pour développer ma maîtrise de boostrap
+                        </p>
+                        <p>Langages utilisés :</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Framework : bootstrap</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="https://github.com/YoanMln/Auto-Legends"
+                          role="button"
+                          >Github
+                        </a>
+                        <a
+                          class="btn-color btn btn-primary"
+                          href="#"
+                          role="button"
+                          >Voir le site
+                        </a>
+                        <button
+                          type="button"
+                          class="btn-color btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fermer
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
             <!-----Figma tab----->
             <div
               class="tab-pane fade"
@@ -503,7 +540,7 @@
               <div class="row justify-content-center m-4">
                 <!-----Project Figma 1----->
                 <div class="col-12 col-md-4 mb-4">
-                  <div class="card">
+                  <div class="card h-100">
                     <img
                       class="card-img-top"
                       src="./images/screenProjects/figma-1.png"
@@ -523,43 +560,42 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!-------Modal Figma1------->
-            <div
-              class="modal fade"
-              id="figma1"
-              tabindex="-1"
-              aria-labelledby="figma1Label"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content custom-modal">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="Label">Landing page</h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Landing page fictive conçue sur Figma.</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn-color btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Fermer
-                    </button>
+                <!-------Modal Figma1------->
+                <div
+                  class="modal fade"
+                  id="figma1"
+                  tabindex="-1"
+                  aria-labelledby="figma1Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content custom-modal">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="figma1">Landing page</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Landing page fictive conçue sur Figma.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn-color btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fermer
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!---->
           </div>
         </div>
       </section>

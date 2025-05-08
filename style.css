@@ -322,13 +322,6 @@ a.git-link {
   padding: 10rem 0 5rem 0;
 }
 
-.container-projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-}
-
 /*-----Btn projects-----*/
 .nav-pills .nav-link {
   color: white;
@@ -342,8 +335,9 @@ a.git-link {
 
 /*-----Style projects cards-----*/
 .card {
-  width: 18rem;
-  background-color: #65647c;
+  width: 20rem;
+  border: none;
+  background-color: transparent;
 }
 
 /*-----Footer-----*/
@@ -366,13 +360,12 @@ footer {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
   top: 0;
   left: 0;
 }
 
-.langages-container,
-.container-projects {
+.langages-container {
   position: relative;
   z-index: 1;
 }
