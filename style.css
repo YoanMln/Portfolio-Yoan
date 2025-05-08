@@ -7,6 +7,7 @@ body {
   background-color: #393e46;
   font-family: var(--Nunito);
   height: 100%;
+  letter-spacing: 1.5px;
 }
 
 /*-----Section DropDown Nav-----*/
@@ -35,11 +36,10 @@ body {
   display: flex;
   gap: 1.5rem;
   list-style: none;
-}
-
-.navLinks a {
-  color: white;
-  text-decoration: none;
+  color: #f6f6f6;
+  :hover {
+    color: #008dda;
+  }
 }
 
 /*-----Title-----*/
@@ -47,6 +47,7 @@ body {
   font-size: 50px;
   color: #f6f6f6;
   margin-top: 1rem;
+  font-weight: 300;
 }
 
 .main-title h2 {
@@ -338,6 +339,10 @@ a.git-link {
   width: 20rem;
   border: none;
   background-color: transparent;
+}
+
+.figma-card {
+  width: 30rem;
 }
 
 /*-----Footer-----*/
