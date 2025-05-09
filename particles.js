@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS("particles-langages", {
     particles: {
       number: { value: 30 },
-      size: { value: 3 },
+      size: { value: 2 },
       color: { value: "#37afe1" },
     },
     interactivity: {
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS("particles-projects", {
     particles: {
       number: { value: 30 },
-      size: { value: 2.5 },
+      size: { value: 2 },
       color: { value: "#37afe1" },
     },
     interactivity: {
