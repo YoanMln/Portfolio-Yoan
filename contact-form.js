@@ -15,12 +15,16 @@ document
         document.getElementById("confirmation-message").style.display = "block";
 
         form.style.display = "none";
+
+        setTimeout(() => {
+          form.style.display = "block";
+
+          document.getElementById("confirmation-message").style.display =
+            "none";
+        }, 3000);
       })
       .catch((error) => {
         alert("Une erreur est survenue. Veuillez réessayer.");
         console.error(error);
       });
   });
-document.getElementById("close-message").addEventListener("click", function () {
-  document.getElementById("confirmation-message").style.display = "none";
-});
