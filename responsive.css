@@ -73,6 +73,14 @@
     max-width: 20rem;
     margin: auto;
   }
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .mail {
+    width: 100%;
+  }
 }
 
 /*-----Responsive XS : Téléphones petits écrans-----*/
