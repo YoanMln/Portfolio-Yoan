@@ -437,6 +437,35 @@ textarea:invalid {
   border-left: 1.5px solid #e74c3c;
 }
 
+/*-----ConfirmationMessage-----*/
+
+#confirmation-message {
+  animation: fadeIn 1s ease-in-out;
+  display: none;
+  background-color: rgba(0, 142, 218, 0.03);
+  color: #f9f6ee;
+  border: 1px solid #375ae1;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#close-message {
+  background: none;
+  border: none;
+  color: #f9f6ee;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#close-message:hover {
+  text-decoration: underline;
+}
+
 /*-----Network-----*/
 
 .container-network {

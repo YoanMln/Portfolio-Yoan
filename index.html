@@ -619,10 +619,10 @@
         <div class="container-contact d-flex justify-content-around">
           <div class="container-form">
             <form
+              id="contact-form"
               name="contact"
               method="POST"
               data-netlify="true"
-              data-netlify-recaptcha="true"
             >
               <input type="hidden" name="form-name" value="contact" />
 
@@ -643,12 +643,14 @@
                 </label>
               </p>
 
-              <div data-netlify-recaptcha="true"></div>
-
               <p>
                 <button class="button-form" type="submit">Envoyer</button>
               </p>
             </form>
+            <div id="confirmation-message">
+              Merci pour votre message ! 🛸
+              <button id="close-message">Fermer</button>
+            </div>
           </div>
           <!-------Network------->
           <div class="container-network">
@@ -707,5 +709,6 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="dropDown-nav.js"></script>
     <script src="github-activity.js"></script>
+    <script src="contact-form.js"></script>
   </body>
 </html>
