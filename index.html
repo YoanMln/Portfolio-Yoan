@@ -623,6 +623,7 @@
               name="contact"
               netlify
               method="POST"
+              data-netlify-recaptcha="true"
               data-netlify="true"
             >
               <input type="hidden" name="form-name" value="contact" />
@@ -643,7 +644,7 @@
                   >Message: <textarea name="message" required></textarea>
                 </label>
               </p>
-
+              <div data-netlify-recaptcha="true"></div>
               <p>
                 <button class="button-form" type="submit">Envoyer</button>
               </p>
