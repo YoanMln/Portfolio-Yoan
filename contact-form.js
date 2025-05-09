@@ -21,7 +21,7 @@ document
 
           document.getElementById("confirmation-message").style.display =
             "none";
-        }, 1000);
+        }, 2000);
       })
       .catch((error) => {
         alert("Une erreur est survenue. Veuillez réessayer.");
