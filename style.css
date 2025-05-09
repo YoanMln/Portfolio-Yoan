@@ -408,7 +408,7 @@ textarea {
   resize: vertical;
 }
 
-button {
+.button-form {
   background-color: #37afe1;
   color: white;
   border: none;
@@ -418,11 +418,9 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
-button:hover {
+.button-form:hover {
   background-color: #008dda;
 }
-
 div[data-netlify-recaptcha] {
   margin-bottom: 24px;
 }
@@ -430,13 +428,13 @@ div[data-netlify-recaptcha] {
 input:required,
 select:required,
 textarea:required {
-  border-left: 3px solid #4a90e2;
+  border-left: 1.5px solid #4a90e2;
 }
 
 input:invalid,
 select:invalid,
 textarea:invalid {
-  border-left: 3px solid #e74c3c;
+  border-left: 1.5px solid #e74c3c;
 }
 
 /*-----Network-----*/
