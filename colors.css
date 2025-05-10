@@ -10,3 +10,7 @@
   background-color: #393e46;
   color: #f6f6f6;
 }
+
+:root {
+  --border-color: #375ae1;
+}

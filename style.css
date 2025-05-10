@@ -73,7 +73,7 @@ body {
 
 #github-activity {
   background-color: rgba(0, 142, 218, 0.03);
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   width: 100%;
 
@@ -170,7 +170,7 @@ a.git-link {
   height: auto;
   background-color: rgba(0, 142, 218, 0.03);
   border-radius: 10px 10px 0 0;
-  border: 1.5px solid #375ae1;
+  border: 1.5px solid var(--border-color);
 }
 
 /*-----Text container------*/
@@ -365,7 +365,7 @@ form {
   margin: 0 auto;
   padding: 30px;
   background-color: rgba(0, 142, 218, 0.03);
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
@@ -444,7 +444,7 @@ textarea:invalid {
   display: none;
   background-color: rgba(0, 142, 218, 0.03);
   color: #f9f6ee;
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   padding: 15px;
   border-radius: 5px;
   font-size: 16px;
@@ -477,7 +477,7 @@ textarea:invalid {
 }
 
 .mail {
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   max-width: 100%;
   width: 250px;
@@ -496,7 +496,7 @@ textarea:invalid {
 }
 
 .linkedin {
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   height: 100px;
   display: flex;
@@ -513,7 +513,7 @@ textarea:invalid {
 }
 
 .github {
-  border: 1px solid #375ae1;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   height: 100px;
   display: flex;
