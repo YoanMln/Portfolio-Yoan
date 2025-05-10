@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     interactivity: {
       events: { onhover: { enable: true, mode: "grab" } },
     },
+    retina_detect: true,
+    fps_limit: 60,
   });
 
   particlesJS("particles-projects", {
@@ -19,5 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     interactivity: {
       events: { onhover: { enable: true, mode: "grab" } },
     },
+    retina_detect: true,
+    fps_limit: 60,
   });
 });
