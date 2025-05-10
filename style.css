@@ -19,6 +19,7 @@ body {
   background-color: #30343c;
   padding: 1rem;
   flex-wrap: wrap;
+  animation: elements-nav 2.5s ease 0s 1 normal forwards;
 }
 
 /*Burger button*/
@@ -48,6 +49,7 @@ body {
   color: #f6f6f6;
   margin-top: 1rem;
   font-weight: 300;
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 .main-title h2 {
@@ -56,6 +58,10 @@ body {
 }
 
 /*-----Btn CV-----*/
+
+.btn-cv {
+  animation: elements-home 3s ease 0s 1 normal forwards;
+}
 
 .btn-bounce {
   animation: btn-bounce 1.3s ease infinite;
@@ -121,6 +127,7 @@ a.git-link {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 /*-----Text Intro-----*/
@@ -132,11 +139,13 @@ a.git-link {
   display: flex;
   align-items: center;
   font-size: 15px;
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 /*-----Frame part-----*/
 .frame {
   width: 150%;
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 /*-----About-----*/
@@ -145,6 +154,7 @@ a.git-link {
   padding: 80px 20px;
   background: url(./images/pictures/BG-about.png) center / cover;
   text-align: center;
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 /*-----Section container-----*/
@@ -171,6 +181,7 @@ a.git-link {
   background-color: rgba(0, 142, 218, 0.03);
   border-radius: 10px 10px 0 0;
   border: 1.5px solid var(--border-color);
+  animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
 /*-----Text container------*/
