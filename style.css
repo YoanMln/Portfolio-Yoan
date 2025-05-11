@@ -168,7 +168,7 @@ a.git-link {
   padding: 20px;
 }
 
-/*-----Img container-----*/
+/*-----Img container/photo profil-----*/
 .img-container {
   width: 100%;
   max-width: 250px;
@@ -176,11 +176,8 @@ a.git-link {
 }
 
 .img-illustration {
-  width: 50%;
+  width: 46%;
   height: auto;
-  background-color: rgba(0, 142, 218, 0.03);
-  border-radius: 10px 10px 0 0;
-  border: 1.5px solid var(--border-color);
   animation: elements-home 3s ease 0s 1 normal forwards;
 }
 
