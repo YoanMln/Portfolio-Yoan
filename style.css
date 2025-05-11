@@ -66,6 +66,7 @@ body {
   margin-top: 1rem;
   font-weight: 300;
   animation: elements-home 3s ease 0s 1 normal forwards;
+  text-shadow: 1px 1px 0 #375ae1, 2px 2px 0 #375ae1, 3px 3px 0 #375ae1;
 }
 
 .main-title h2 {
