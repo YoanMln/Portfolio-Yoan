@@ -22,7 +22,13 @@ body {
   animation: elements-nav 2.5s ease 0s 1 normal forwards;
 }
 
-/*Burger button*/
+.nav-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-----Burger button-----*/
 .burger {
   display: none;
   background: none;
@@ -32,7 +38,12 @@ body {
   color: white;
 }
 
-/*Navigation links*/
+.container-info-nav {
+  display: flex;
+  align-items: center;
+}
+
+/*-----NavLinks-----*/
 .navLinks {
   display: flex;
   gap: 1.5rem;
@@ -41,6 +52,11 @@ body {
   :hover {
     color: #008dda;
   }
+}
+
+.img-profil {
+  max-width: 100%;
+  width: 20%;
 }
 
 /*-----Title-----*/

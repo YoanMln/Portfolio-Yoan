@@ -34,11 +34,21 @@
     <header>
       <!-----NavBar----->
       <nav class="navbar">
-        <div class="d-flex gap-3">
-          <i class="fa-solid fa-code fa-fade fa-2x" style="color: #f9f6ee"></i>
-          <p class="mt-1" style="color: #f9f6ee">Hello there !</p>
+        <div class="container-info-nav">
+          <div class="d-flex gap-3">
+            <img
+              class="img-profil"
+              src="./images/pictures/about.png"
+              alt="photo de profil"
+            />
+            <div class="nav-txt">
+              <p class="mt-4" style="color: #f9f6ee">Hello there !</p>
+            </div>
+          </div>
+          <div class="burger-container">
+            <button id="burgerBtn" class="burger">&#9776;</button>
+          </div>
         </div>
-        <button id="burgerBtn" class="burger">&#9776;</button>
         <ul id="navLinks" class="navLinks">
           <li><a class="nav-link" href="#about">À propos</a></li>
           <li><a class="nav-link" href="#langages">Langages</a></li>
@@ -50,13 +60,14 @@
     <main>
       <section id="accueil">
         <div class="container mt-custom">
-          <div class="row d-flex align-items-center">
-            <!-----Title----->
-            <div class="col-12 col-md-6 text-center text-md-left">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 col-md-8 px-3 my-5">
+              <!-------Title------->
               <div class="main-title text-color mt-5">
                 <h1>Yoan Moulin <br />Développeur web <br />en formation</h1>
               </div>
-              <!-----Btn CV----->
+
+              <!-------Btn CV------->
               <div class="btn-cv mt-4">
                 <a
                   href="./docs/CV.pdf"
@@ -67,28 +78,19 @@
                 </a>
               </div>
 
-              <!-----API GitHub Activity----->
-              <div class="github-container">
-                <div id="github-activity" class="container mt-3 text-center">
+              <!-------API GitHub Activity------->
+              <div class="github-container mt-3">
+                <div id="github-activity" class="container">
                   Chargement du dernier commit...
                 </div>
               </div>
-              <!-----Text Intro----->
+
+              <!--Text Intro-->
               <div class="intro-text mt-5">
                 <h2 class="text-color">
                   Disponible pour un stage ou une alternance afin de relever de
                   nouveaux défis.
                 </h2>
-              </div>
-            </div>
-            <!-----Frame part----->
-            <div class="col-md-6 text-center order-1 order-md-0">
-              <div class="illustration-container">
-                <img
-                  class="img-illustration"
-                  src="./images/pictures/about.png"
-                  alt="photo de profil "
-                />
               </div>
             </div>
           </div>
