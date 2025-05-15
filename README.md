@@ -33,7 +33,7 @@ Le site est entièrement responsive, pensé en version desktop puis adapté aux 
 - Intégration d’animations supplémentaires
 - Optimisation des performances
 - Ajout de nouveaux projets
-- Amélioration de l'intégration REST API (back-end)
+- Amélioration de l'intégration de l'API GitHub (back-end)
 
 ## 📥 Ajouts récents
 
