@@ -45,6 +45,7 @@ Le site est entièrement responsive, pensé en version desktop puis adapté aux 
 Tu peux me joindre via :  
 👉 yoan.moulin@le-campus-numerique.fr
 👉 LinkedIn / GitHub
+👉 https://yoanmoulin.dev
 
 ---
 
