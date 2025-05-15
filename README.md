@@ -6,7 +6,7 @@ Ce site présente une sélection de mes projets, mon parcours ainsi que mes comp
 ## 🚀 À propos
 
 Ce portfolio a été conçu comme un projet personnel pour mettre en valeur mes acquis en HTML, CSS, JavaScript et Bootstrap.  
-Il inclut des animations et effets visuels grâce à la bibliothèque [Particles.js](https://vincentgarreau.com/particles.js/).
+Il inclut des animations et effets visuels grâce à la bibliothèque [Particles.js](https://vincentgarreau.com/particles.js/), et grâce à [VANTA](<https://www.vantajs.com/?effect=globe#(backgroundAlpha:1,backgroundColor:2299196,color:16727937,color2:16777215,gyroControls:!f,maxDistance:20,minHeight:200,minWidth:200,mouseControls:!t,points:10,scale:1,scaleMobile:1,showDots:!t,size:0.6000000000000001,spacing:15,touchControls:!t)>)
 
 ## 🛠️ Technologies utilisées
 
@@ -39,6 +39,7 @@ Le site est entièrement responsive, pensé en version desktop puis adapté aux 
 
 - (06/05/2025) Nav Bar avec menu "DropDown" géré par JS
 - (07/05/2025) REST API GitHub pour suivre les derniers commits réalisés
+- (15/05/2025) VANTA Globe
 
 ## 📬 Me contacter
 
