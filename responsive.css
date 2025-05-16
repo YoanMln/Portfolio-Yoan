@@ -49,6 +49,11 @@
     font-size: 1rem;
   }
 
+  .frame-container {
+    margin-left: 2rem;
+    width: 60%;
+  }
+
   /*-----Section langages-----*/
   .container-card-langages {
     flex-direction: column;
