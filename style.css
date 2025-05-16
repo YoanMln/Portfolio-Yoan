@@ -187,10 +187,13 @@ a.git-link {
 }
 
 /*-----Img container/photo profil-----*/
-.img-container {
+.frame-container {
   width: 100%;
   max-width: 250px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
 }
 
 .img-illustration {
