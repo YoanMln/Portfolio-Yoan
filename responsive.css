@@ -94,6 +94,24 @@
 
 /*-----Responsive XS : Téléphones petits écrans-----*/
 @media (max-width: 480px) {
+  .img-profil {
+    width: 25%;
+    height: 25%;
+  }
+
+  .main-title h1 {
+    font-size: 2rem;
+  }
+
+  .btn-cv a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #about {
+    padding: 0;
+  }
+
   .about-title {
     font-size: 1.8rem;
   }
@@ -115,5 +133,27 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .container-info-nav {
+    width: 450px;
+  }
+
+  .navLinks {
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    width: 15rem;
+    border: none;
+    background-color: transparent;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .figma-card {
+    width: 25rem;
   }
 }
